@@ -15,8 +15,10 @@ public interface IStack<T> {
 	 * Add an element to stack
 	 * 
 	 * @param t
+	 * 
+	 * @return
 	 */
-	void push(T t);
+	boolean push(T t);
 
 	/**
 	 * remove an element from stack.

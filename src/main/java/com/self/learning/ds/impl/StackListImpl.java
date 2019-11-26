@@ -12,9 +12,9 @@ import com.self.learning.ds.IStack;
 public class StackListImpl<T> implements IStack<T> {
 
 	@Override
-	public void push(T t) {
+	public boolean push(T t) {
 		// TODO Auto-generated method stub
-
+		return false;
 	}
 
 	@Override
